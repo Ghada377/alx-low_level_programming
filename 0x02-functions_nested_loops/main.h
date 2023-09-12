@@ -14,6 +14,8 @@ int _islower(int c);
 int _isalpha(int c);
 /* Prototype for print_sign function */
 int print_sign(int n);
+/* Prototype for _abs function */
+int _abs(int n);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
