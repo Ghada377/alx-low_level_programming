@@ -8,6 +8,8 @@ int _putchar(char c);
 void print_alphabet(void);
 /* Prototype for print_alphabet_x10 */
 void print_alphabet_x10(void);
+/* Prototype for _islower function */
+int _islower(int c);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
