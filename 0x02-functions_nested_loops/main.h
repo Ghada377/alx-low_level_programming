@@ -22,6 +22,8 @@ int print_last_digit(int n);
 void jack_bauer(void);
 /* prototype for times_table functuin */
 void times_table(void);
+/* prototype for add functuin */
+int add(int a, int b);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
