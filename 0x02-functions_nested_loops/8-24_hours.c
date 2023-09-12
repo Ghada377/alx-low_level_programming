@@ -6,7 +6,7 @@
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int n)
+void jack_bauer(void);
 {
 	int last_digit;
 
