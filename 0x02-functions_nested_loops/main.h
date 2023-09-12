@@ -20,10 +20,12 @@ int _abs(int n);
 int print_last_digit(int n);
 /* Prototype for jack_bauer function */
 void jack_bauer(void);
-/* prototype for times_table functuin */
+/* prototype for times_table function */
 void times_table(void);
-/* prototype for add functuin */
+/* prototype for add function */
 int add(int a, int b);
+/* prototype for print_to_98 function */ 
+void print_to_98(int n);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
