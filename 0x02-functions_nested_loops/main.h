@@ -25,6 +25,8 @@ void times_table(void);
 /* prototype for add function */
 int add(int a, int b);
 /* prototype for print_to_98 function */ 
+#include <stdio.h>
+
 void print_to_98(int n);
 /* Add any other function prototypes here */
 
