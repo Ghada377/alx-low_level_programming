@@ -16,6 +16,8 @@ int _isalpha(int c);
 int print_sign(int n);
 /* Prototype for _abs function */
 int _abs(int n);
+/* Prototype for print_last_digit function */
+int print_last_digit(int n);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
