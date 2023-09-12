@@ -18,6 +18,9 @@ int print_sign(int n);
 int _abs(int n);
 /* Prototype for print_last_digit function */
 int print_last_digit(int n);
+/* Prototype for jack_bauer function */
+void jack_bauer(void);
+
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
