@@ -28,6 +28,8 @@ int add(int a, int b);
 #include <stdio.h>
 
 void print_to_98(int n);
+/* prototype for times_table function */
+void print_times_table(int n);
 /* Add any other function prototypes here */
 
 #endif /* MAIN_H */
