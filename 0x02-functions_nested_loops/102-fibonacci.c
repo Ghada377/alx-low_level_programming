@@ -16,7 +16,8 @@ int main(void)
 		_putchar(','); /* Print comma and space separator */
 		_putchar(' ');
 
-		_putchar(b + '0'); /* Print the current Fibonacci number */
+		/* Convert the current Fibonacci number to a string and print it */
+		print_number(b);
 
 		temp = b;
 		b += a;
@@ -25,5 +26,23 @@ int main(void)
 
 	_putchar('\n'); /* Print a new line */
 	return (0);
+}
+
+/**
+ * print_number - Prints a number as a string
+ * @n: The number to print
+ */
+void print_number(long int n)
+{
+	if (n < 0)
+	{
+		_putchar('-');
+		n = -n;
+	}
+
+	if (n / 10)
+		print_number(n / 10);
+
+	_putchar((n % 10) + '0');
 }
 
