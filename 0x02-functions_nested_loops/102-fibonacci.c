@@ -7,42 +7,23 @@
  */
 int main(void)
 {
-	long int a = 1, b = 2, temp;
-	int i;
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	_putchar('1'); /* Print the first Fibonacci number */
-	for (i = 2; i <= 50; ++i)
+	for (count = 0; count < 50; count++)
 	{
-		_putchar(','); /* Print comma and space separator */
-		_putchar(' ');
+		sum = fib1 + fib2;
+		printf("%lu", sum);
 
-		/* Convert the current Fibonacci number to a string and print it */
-		print_number(b);
+		fib1 = fib2;
+		fib2 = sum;
 
-		temp = b;
-		b += a;
-		a = temp;
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 
-	_putchar('\n'); /* Print a new line */
 	return (0);
-}
-
-/**
- * print_number - Prints a number as a string
- * @n: The number to print
- */
-void print_number(long int n)
-{
-	if (n < 0)
-	{
-		_putchar('-');
-		n = -n;
-	}
-
-	if (n / 10)
-		print_number(n / 10);
-
-	_putchar((n % 10) + '0');
 }
 
