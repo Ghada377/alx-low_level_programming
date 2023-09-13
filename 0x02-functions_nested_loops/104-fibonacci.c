@@ -30,9 +30,7 @@ int main(void)
 	int count, initial0s;
 	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
-	printf("%lu, %lu", f1, f2); /* Print the first two numbers */
-
-	for (count = 2; count <= 98; count++)
+	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
 			printf(", %lu", f1o);
