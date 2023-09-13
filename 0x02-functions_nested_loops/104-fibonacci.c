@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * numLength - return the Length of string
- * @num: operation number
+ * numLength - return the length of a number
+ * @num: the number to measure
  *
  * Return: Length of the number
  */
@@ -28,7 +28,7 @@ int numLength(int num)
 int main(void)
 {
 	int count, initial0s;
-	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, sumo = 0;
+	unsigned long f1 = 1, f2 = 2, sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
 
 	printf("%lu, %lu", f1, f2); /* Print the first two numbers */
 
