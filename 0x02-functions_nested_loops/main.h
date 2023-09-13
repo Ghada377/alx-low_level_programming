@@ -31,7 +31,6 @@ void print_to_98(int n);
 /* prototype for times function */
 void print_times_table(int n);
 /* Add any other function prototypes here */
-int main(void)
 
 #endif /* MAIN_H */
 
