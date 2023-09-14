@@ -14,5 +14,8 @@ int _isdigit(int c);
 
 /* Function prototype for 2-mul.c */
 int mul(int a, int b);
+
+/* Function prototype for 3-print_numbers.c */
+void print_numbers(void);
 #endif /* MAIN_H */
 
