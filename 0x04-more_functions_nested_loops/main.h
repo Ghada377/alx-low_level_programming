@@ -20,5 +20,8 @@ void print_numbers(void);
 
 /* Function prototype for 4-print_most_numbers.c */
 void print_most_numbers(void);
+
+/* Function prototype for 5-more_numbers.c */
+void more_numbers(void);
 #endif /* MAIN_H */
 
