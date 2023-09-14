@@ -9,5 +9,7 @@ int _putchar(char c);
 /* Function prototype for 0-isupper.c */
 int _isupper(int c);
 
+/* Function prototype for 1-isdigit.c */
+int _isdigit(int c);
 #endif /* MAIN_H */
 
