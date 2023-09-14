@@ -11,5 +11,8 @@ int _isupper(int c);
 
 /* Function prototype for 1-isdigit.c */
 int _isdigit(int c);
+
+/* Function prototype for 2-mul.c */
+int mul(int a, int b);
 #endif /* MAIN_H */
 
