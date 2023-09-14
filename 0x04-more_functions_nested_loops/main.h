@@ -17,5 +17,8 @@ int mul(int a, int b);
 
 /* Function prototype for 3-print_numbers.c */
 void print_numbers(void);
+
+/* Function prototype for 4-print_most_numbers.c */
+void print_most_numbers(void);
 #endif /* MAIN_H */
 
