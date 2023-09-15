@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	/* Declare and initialize the variable i */
 	int i;
 
 	i = 0;
