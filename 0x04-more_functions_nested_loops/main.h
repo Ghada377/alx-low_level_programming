@@ -32,5 +32,8 @@ void print_diagonal(int n);
 
 /* Function prototype for 8-print_square.c */
 void print_square(int size);
+
+/* Function prototype for 10-print_triangle.c */
+void print_triangle(int size);
 #endif /* MAIN_H */
 
