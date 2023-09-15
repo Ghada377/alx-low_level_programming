@@ -35,5 +35,8 @@ void print_square(int size);
 
 /* Function prototype for 10-print_triangle.c */
 void print_triangle(int size);
+
+/* Function prototype for 101-print_number.c */
+void print_number(int n);
 #endif /* MAIN_H */
 
